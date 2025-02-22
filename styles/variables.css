@@ -8,7 +8,7 @@
   --font-size: 18px;
   --bg-header: url("../images/cover-image-dark.png");
   --bg-button: transparent;
-  --bold-font: 700;
+  --accent-font: 700;
   --regular-font: 400;
   --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }

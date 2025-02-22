@@ -141,7 +141,6 @@
 
 .section {
   display: grid;
-  gap: 20px;
   margin-block-end: 50px;
   padding: 0 10px 0 10px;
 }
@@ -150,6 +149,7 @@
   color: var(--accent-color, #ff0070);
   font-size: var(--font-size, 18px);
   line-height: 130%;
+  margin-block-end: 20px;
 }
 
 .section__subtitle {
@@ -172,6 +172,7 @@
 .card__content {
   color: var(--text-color, #f1b2ce);
   line-height: 130%;
+  margin-block-end: 20px;
 }
 
 .card__link {
@@ -230,9 +231,6 @@ ul {
   unicode-bidi: normal;
 }
 
-.card__content {
-  margin-block-end: 20px;
-}
 
 @media (width >=768px) {
 

@@ -21,7 +21,7 @@
 
 
 .theme_light .header__theme-menu-button:hover {
-  outline: outline: 1px solid rgba(var(--button-decor, 53, 52, 48, 1), 0.4);
+  outline: 1px solid rgba(var(--button-decor, 53, 52, 48, 1), 0.4);
   cursor: pointer;
 }
 
@@ -37,6 +37,7 @@
 
   .page {
     --bg-header: url("../images/cover-image-light.png");
+    --text-color: #353430; 
   }
 
   .decor {

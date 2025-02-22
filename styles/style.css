@@ -82,7 +82,6 @@
 }
 
 .title-decor {
-  padding-inline-end: 14%;
   font-weight: var(--acceent-font, 700);
   background-color: var(--accent-color, #ff0070);
   block-size: auto;
@@ -143,22 +142,27 @@
   display: grid;
   margin-block-end: 50px;
   padding: 0 10px 0 10px;
+  gap: 20px;
 }
 
 .section:last-child {
-  gap: 20px;
+  gap: 10px;
 }
 
 .section__title {
   color: var(--accent-color, #ff0070);
   font-size: var(--font-size, 18px);
   line-height: 130%;
-  margin-block-end: 20px;
 }
 
 .section__subtitle {
   color: var(--bg-color, #000028);
   font-weight: var(--accent-font);
+}
+
+.section-items {
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 .card__title {
@@ -203,7 +207,6 @@
 
 .section-img {
   display: grid;
-  gap: 10px;
 }
 
 .section-img img {
@@ -255,6 +258,13 @@ ul {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  .section {
+    display: grid;
+    margin-block-end: 80px;
+    padding: 0 20px 0 20px;
+  }
+
+
   .decorated-zone::before {
     top: 20px;
     right: 20px;
@@ -291,7 +301,7 @@ ul {
   }
 
   .section-reasons {
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 65%;
     grid-template-rows: auto auto;
   }
 
@@ -344,6 +354,10 @@ ul {
 
   .section-howto .card__title {
     margin-block-end: 20px;
+  }
+
+  .section:last-child {
+    gap: 20px;
   }
 
 }

@@ -146,6 +146,10 @@
 }
 
 .section:last-child {
+  margin-block-end: 30px;
+}
+
+.section:last-child {
   gap: 10px;
 }
 
@@ -242,6 +246,10 @@ ul {
   unicode-bidi: normal;
 }
 
+.section section-img {
+  margin-block-end: 40px;
+}
+
 
 @media (width >=768px) {
 
@@ -264,11 +272,14 @@ ul {
 
   .section {
     display: grid;
-    margin-block-end: 70px;
+    margin-block-end: 60px;
     padding: 0 20px 0 20px;
   }
 
-
+  .section:last-child {
+    margin-block-end: 30px;
+  }
+\
   .decorated-zone::before {
     top: 20px;
     right: 20px;
@@ -362,6 +373,10 @@ ul {
 
   .section:last-child {
     gap: 20px;
+  }
+
+  .section section-img {
+    margin-block-end: 60px;
   }
 
 }

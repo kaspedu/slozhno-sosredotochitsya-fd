@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.theme_light .header__title {
+  color: var(--title-color, #FFC2E6);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #FFF1F7;
@@ -40,6 +44,10 @@
   .page {
     background-image: var(--bg-header, url("../images/cover-image-light.png"));
     color: var(--text-color, #353430);
+  }
+
+  .header__title {
+    color: var(--title-color, #FFC2E6);
   }
 
   .section__title {

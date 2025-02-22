@@ -3,6 +3,7 @@
 .page {
   position: relative;
   font-family: var(--main-text, "IBM Plex Mono");
+  font-size: var(--font-size, 18px);
   background-color: var(--bg-color, #000028);
   background-image: url("../images/cover-image-dark.png");
   background-repeat: no-repeat;
@@ -170,6 +171,7 @@
 
 .card__content {
   color: var(--text-color, #f1b2ce);
+  line-height: 130%;
 }
 
 .card__link {
@@ -228,6 +230,10 @@ ul {
   unicode-bidi: normal;
 }
 
+.card__content {
+  margin-block-end: 20px;
+}
+
 @media (width >=768px) {
 
   .header {
@@ -275,7 +281,7 @@ ul {
   }
 
   .section__title {
-    max-width: 236px;
+    max-inline-size: 236px;
   }
 
   .section-reasons {
@@ -329,17 +335,10 @@ ul {
     grid-row: 3 / 4;
   }
 
-  .section-title-items {
-    min-inline-size: 35%;
-  }
-
   .section-howto .card__title {
     margin-block-end: 20px;
   }
 
-  .card__content {
-    margin-block-end: 20px;
-  }
 }
 
 @media (width >=1024px) {
@@ -381,6 +380,9 @@ ul {
 
   .section-title-items {
     grid-column: 1 / span 3;
-    min-inline-size: 35%;
+  }
+
+  .section__title {
+    max-inline-size: 315px;
   }
 }

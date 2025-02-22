@@ -1,0 +1,18 @@
+.page .theme_dark {
+  --bg-color: #000028;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --description-color: #000;
+  --main-text: "IBM Plex Mono", "monospace";
+  --font-size: 18px;
+  --bg-header: url("../images/cover-image-dark.png");
+  --bg-button: transparent;
+  --accent-font: 700;
+  --regular-font: 400;
+  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+.theme_dark .decor {
+  visibility: visible;
+}

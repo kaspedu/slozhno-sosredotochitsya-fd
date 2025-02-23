@@ -1,12 +1,12 @@
 :root {
   --bg-color: #000028;
-  --title-color: #DB00FF; 
-  --accent-color: #FF0070; 
+  --title-color: #DB00FF;
+  --accent-color: #FF0070;
   --decor-color: #FF0070;
   --heading-color: #000028;
   --bg-button: transparent;
   --text-color: #f1b2ce;
-  --hover-button-color: rgba(255, 0, 112, 0.4); 
+  --hover-button-color: rgba(255, 0, 112, 0.4);
   --main-font-family: "IBM Plex Mono", "monospace";
   --main-font: 400;
   --accent-font: 700;

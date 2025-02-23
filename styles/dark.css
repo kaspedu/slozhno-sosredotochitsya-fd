@@ -7,7 +7,7 @@
   --bg-button: transparent;
   --text-color: #f1b2ce;
   --hover-button-color: rgba(255, 0, 112, 0.4);
-  --bg-image: url(../images/cover-image-dark.png)
+  --bg-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .decor {

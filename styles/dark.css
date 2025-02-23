@@ -1,18 +1,19 @@
-.page .theme_dark {
+.theme-dark .page {
   --bg-color: #000028;
-  --title-color: #db00ff;
-  --accent-color: #ff0070;
-  --text-color: #f1b2ce;
-  --description-color: #000;
-  --main-text: "IBM Plex Mono", "monospace";
-  --font-size: 18px;
-  --bg-header: url("../images/cover-image-dark.png");
+  --title-color: #DB00FF; 
+  --accent-color: #FF0070; 
+  --decor-color: #FF0070;
+  --heading-color: #000028;
   --bg-button: transparent;
-  --accent-font: 700;
-  --regular-font: 400;
-  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --text-color: #f1b2ce;
+  --hover-button-color: rgba(255, 0, 112, 0.4); 
+  --bg-image: url(../images/cover-image-dark.png)
 }
 
-.theme_dark .decor {
+.theme-dark .page {
+  background-image: var(--bg-image);
+}
+
+.theme-dark .decor {
   visibility: visible;
 }

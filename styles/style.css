@@ -139,8 +139,8 @@
 }
 
 .section {
-  padding: 0 10px 0 10px;
   margin-block-end: 50px;
+  padding: 0 10px 0 10px;
 }
 
 .section__card:not(:last-child) {
@@ -148,16 +148,16 @@
 }
 
 .section__title {
+  margin-block-end: 20px;
   color: var(--heading-color, #ff0070);
   font-size: var(--font-size, 18px);
   line-height: 130%;
-  margin-block-end: 20px;
 }
 
 .section__subtitle {
+  margin-block-end: 20px;
   color: var(--heading-color, #000028);
   font-weight: var(--accent-font);
-  margin-block-end: 20px;
   font-size: var(--font-size, 18px);
 }
 
@@ -174,19 +174,19 @@
 
 .card__subtitle {
   margin-block-end: 20px;
-  color: var(--heading-color, #000028)
+  color: var(--heading-color, #000028);
 }
 
 .section-howto h4 {
+  color: var(--heading-color, #000028);
   font-weight: var(--main-font);
-  color: var(--heading-color, #000028)
 }
 
 .card__content {
   margin-block-end: 20px;
   color: var(--text-color, #f1b2ce);
-  font-size: 18px;
   font-weight: var(--main-font);
+  font-size: 18px;
   line-height: 130%;
 }
 
@@ -261,7 +261,7 @@
     justify-self: start;
   }
 
-  .header__title, 
+  .header__title,
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -281,8 +281,8 @@
   }
 
   .section__img {
-    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
   .decorated-zone::before {
@@ -367,11 +367,6 @@
     grid-row: 3 / 4;
   }
 
-  .section-howto .card__title {
-    margin-block-end: 20px;
-  }
-
-
 }
 
 @media (width >=1024px) {
@@ -399,9 +394,9 @@
   }
 
   .section-items {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
   .section:nth-child(odd) {

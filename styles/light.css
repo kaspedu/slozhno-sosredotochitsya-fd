@@ -1,12 +1,12 @@
 .theme-light:root {
   --bg-color: #fff1f7;
-  --title-color: #FFC2E6; 
-  --accent-color: #FF8DCB; 
+  --title-color: #FFC2E6;
+  --accent-color: #FF8DCB;
   --decor-color: #353430;
   --heading-color: #353430;
-  --hover-button-color: rgba(50, 49, 45, 0.4); 
+  --hover-button-color: rgba(50, 49, 45, 0.4);
   --text-color: #353430;
-  --bg-image: url(../images/cover-image-light.png)
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
@@ -21,14 +21,13 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
-    --title-color: #353430;
-    --color-text: #353430;
-    --accent-color: #ff8dcb;
-    --accent-title-color: #ffc2e6;
-    --accent-color-subtitle: #353430;
-    --active-button-color: #353430;
-    --main-font: 400;
-    --accent-font: 700;
+    --title-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --decor-color: #353430;
+    --heading-color: #353430;
+    --hover-button-color: rgba(50, 49, 45, 0.4);
+    --text-color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
   }
 
   .page {

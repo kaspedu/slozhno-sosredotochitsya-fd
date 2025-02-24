@@ -65,8 +65,8 @@
 }
 
 .decorated-zone::after {
-  border-inline-start: 1px solid var(--active-button-color, #ff0070);
-  border-block-end: 1px solid var(--active-button-color, #ff0070);
+  border-inline-start: 1px solid var(--decor-color, #ff0070);
+  border-block-end: 1px solid var(--decor-color, #ff0070);
   inset-inline-start: 10px;
   inset-block-end: 10px;
   block-size: 25px;
@@ -74,7 +74,7 @@
 }
 
 .header__title {
-  color: var(--title-color, #DB00FF);
+  color: var(--title-color);
   font-weight: var(--accent-font, 700);
   font-size: var(--title-size, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
   line-height: 82.5%;
@@ -149,7 +149,7 @@
 
 .section__title {
   margin-block-end: 20px;
-  color: var(--heading-color, #ff0070);
+  color: var(--section-title-color, #ff0070);
   font-size: var(--font-size, 18px);
   line-height: 130%;
 }

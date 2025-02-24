@@ -1,4 +1,4 @@
-.theme-dark .page {
+.theme-dark:root {
   --bg-color: #000028;
   --title-color: #DB00FF;
   --accent-color: #FF0070;
@@ -16,10 +16,8 @@
 }
 
 .theme-dark .decor {
-  visibility: hidden;
+  visibility: visible;
 }
-
-
 
 @media (prefers-color-scheme: dark) {
   :root {

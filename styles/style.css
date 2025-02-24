@@ -149,7 +149,7 @@
 
 .section__title {
   margin-block-end: 20px;
-  color: var(--section-title-color, #ff0070);
+  color: var(--section-title-color);
   font-size: var(--font-size, 18px);
   line-height: 130%;
 }

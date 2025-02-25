@@ -19,6 +19,11 @@
   visibility: visible;
 }
 
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--hover-button-color);
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000028;
